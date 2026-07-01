@@ -10,9 +10,9 @@ export default function About() {
   const B = siteContent.business;
 
   const HIGHLIGHTS = [
-    { icon: '☕', label: { tr: 'Özel Kavrum', en: 'Specialty Roast' }, desc: { tr: 'En kaliteli çekirdekler', en: 'Finest beans' } },
-    { icon: '🧈', label: { tr: 'El Yapımı', en: 'Handcrafted' }, desc: { tr: 'Günlük taze üretim', en: 'Fresh daily' } },
-    { icon: '🌿', label: { tr: 'Doğal', en: 'Natural' }, desc: { tr: 'Koruyucusuz, katkısız', en: 'No preservatives' } },
+    { label: { tr: 'Özel Kavrum', en: 'Specialty Roast' }, desc: { tr: 'En kaliteli çekirdekler', en: 'Finest beans' } },
+    { label: { tr: 'El Yapımı', en: 'Handcrafted' }, desc: { tr: 'Günlük taze üretim', en: 'Fresh daily' } },
+    { label: { tr: 'Doğal', en: 'Natural' }, desc: { tr: 'Koruyucusuz, katkısız', en: 'No preservatives' } },
   ];
 
   return (
@@ -34,9 +34,8 @@ export default function About() {
             {/* Öne çıkanlar */}
             <div className="grid grid-cols-3 gap-4 mb-8">
               {HIGHLIGHTS.map(h => (
-                <div key={h.icon} className="text-center p-4 rounded-2xl bg-white border border-[#E8C9A0]/30">
-                  <span className="text-2xl">{h.icon}</span>
-                  <p className="font-serif text-sm font-semibold text-[#3C2415] mt-2">{t(h.label, lang)}</p>
+                <div key={h.label.tr} className="text-center p-4 rounded-2xl bg-white border border-[#E8C9A0]/30">
+                  <p className="font-serif text-sm font-semibold text-[#3C2415]">{t(h.label, lang)}</p>
                   <p className="text-xs text-[#6B3524]/50 mt-1">{t(h.desc, lang)}</p>
                 </div>
               ))}

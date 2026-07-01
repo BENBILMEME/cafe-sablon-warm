@@ -38,7 +38,7 @@ export default function Contact() {
             <div className="space-y-4">
               {C.hours && (
                 <div className="flex items-center gap-3">
-                  <span className="w-10 h-10 rounded-full bg-[#F5E1C8] flex items-center justify-center text-lg">🕐</span>
+                  <span className="w-10 h-10 rounded-full bg-[#F5E1C8] flex items-center justify-center"><svg className="w-5 h-5 text-[#C67B5C]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><circle cx="12" cy="12" r="9"/><path strokeLinecap="round" d="M12 7v5l3 3"/></svg></span>
                   <div>
                     <p className="text-sm font-semibold text-[#3C2415]">{t(C.hours.daysLabel, lang)}</p>
                     <p className="text-sm text-[#6B3524]/50">{C.hours.openHour}:00 — {C.hours.closeHour}:00</p>
@@ -48,7 +48,7 @@ export default function Contact() {
 
               {B.phone && (
                 <div className="flex items-center gap-3">
-                  <span className="w-10 h-10 rounded-full bg-[#F5E1C8] flex items-center justify-center text-lg">📞</span>
+                  <span className="w-10 h-10 rounded-full bg-[#F5E1C8] flex items-center justify-center"><svg className="w-5 h-5 text-[#C67B5C]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                   <div>
                     <p className="text-sm font-semibold text-[#3C2415]">{t({ tr: 'Telefon', en: 'Phone' }, lang)}</p>
                     <a href={`tel:${B.phone}`} className="text-sm text-[#C67B5C] hover:underline">{B.phone}</a>
@@ -58,7 +58,7 @@ export default function Contact() {
 
               {B.email && (
                 <div className="flex items-center gap-3">
-                  <span className="w-10 h-10 rounded-full bg-[#F5E1C8] flex items-center justify-center text-lg">✉️</span>
+                  <span className="w-10 h-10 rounded-full bg-[#F5E1C8] flex items-center justify-center"><svg className="w-5 h-5 text-[#C67B5C]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></span>
                   <div>
                     <p className="text-sm font-semibold text-[#3C2415]">Email</p>
                     <a href={`mailto:${B.email}`} className="text-sm text-[#C67B5C] hover:underline">{B.email}</a>
