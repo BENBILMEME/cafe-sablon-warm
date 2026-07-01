@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F5E1C8"/>
+  <rect x="1" y="1" width="798" height="598" fill="none" stroke="#E8C9A0" stroke-width="1" stroke-dasharray="8 4" rx="12"/>
+  <text x="400" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#C67B5C" letter-spacing="0.15em">GÖRSEL EKLENECEK</text>
+  <text x="400" y="325" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#D4A574" letter-spacing="0.1em">site-content.json'dan güncelleyin</text>
+</svg>

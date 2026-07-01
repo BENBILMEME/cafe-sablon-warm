@@ -1,0 +1,114 @@
+{
+  "_schema": "2.0",
+  "_description": "Warm Modern Cafe Şablonu — tüm işletme verileri burada.",
+
+  "business": {
+    "name": "Cafe Örnek",
+    "shortName": "Cafe",
+    "tagline": "Roastery & Kitchen",
+    "neighborhood": "Kadıköy, İstanbul",
+    "address": "BELİRSİZ - manuel doldurulacak",
+    "phone": null,
+    "email": null,
+    "rating": 4.7,
+    "ratingPlatform": "Google"
+  },
+
+  "hours": {
+    "openHour": 8,
+    "closeHour": 22,
+    "daysLabel": { "tr": "Her gün", "en": "Every day" },
+    "displayText": { "tr": "Her gün 08:00 — 22:00", "en": "Daily 08:00 — 22:00" }
+  },
+
+  "theme": {
+    "colors": {
+      "primary": "#C67B5C",
+      "primaryLight": "#D4A574",
+      "accent": "#6B8F71",
+      "background": "#FFF8F0",
+      "surface": "#FFFFFF",
+      "text": "#3C2415",
+      "textMuted": "#6B3524",
+      "border": "#E8C9A0"
+    },
+    "fonts": {
+      "serif": "Cormorant Garamond",
+      "sans": "Inter",
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap"
+    }
+  },
+
+  "hero": {
+    "tagline": { "tr": "El Yapımı Lezzet,", "en": "Handcrafted Flavor," },
+    "tagline2": { "tr": "Samimi Atmosfer", "en": "Cozy Atmosphere" },
+    "description": { "tr": "Taze kahve, ev yapımı tatlılar ve sıcak bir ortam.", "en": "Fresh coffee, homemade desserts, and a warm ambiance." },
+    "cta": { "tr": "Menüyü Gör", "en": "View Menu" },
+    "secondaryCta": { "tr": "Yol Tarifi", "en": "Directions" }
+  },
+
+  "about": {
+    "title": { "tr": "Hikayemiz", "en": "Our Story" },
+    "heading": { "tr": "Tutkuyla Başladı", "en": "Started With Passion" },
+    "description": { "tr": "Yılların verdiği tecrübeyle, en kaliteli çekirdekleri özenle kavuruyor, her fincanda mükemmelliği arıyoruz.", "en": "With years of experience, we carefully roast the finest beans, seeking perfection in every cup." }
+  },
+
+  "menuItems": {
+    "coffee": [
+      { "id": "espresso", "name": { "tr": "Espresso", "en": "Espresso" }, "description": { "tr": "Double shot, yoğun", "en": "Double shot, intense" }, "price": "₺55" },
+      { "id": "filter", "name": { "tr": "Filtre Kahve", "en": "Filter Coffee" }, "description": { "tr": "V60, Etiyopya", "en": "V60, Ethiopia" }, "price": "₺65" },
+      { "id": "latte", "name": { "tr": "Latte", "en": "Latte" }, "description": { "tr": "Kadife süt dokusu", "en": "Velvet milk texture" }, "price": "₺75" }
+    ],
+    "food": [
+      { "id": "croissant", "name": { "tr": "Tereyağlı Kruvasan", "en": "Butter Croissant" }, "description": { "tr": "24 saat fermente", "en": "24h fermented" }, "price": "₺85" },
+      { "id": "avocado", "name": { "tr": "Avokadolu Tost", "en": "Avocado Toast" }, "description": { "tr": "Ekşi maya, çıtır", "en": "Sourdough, crispy" }, "price": "₺110" },
+      { "id": "cheesecake", "name": { "tr": "Cheesecake", "en": "Cheesecake" }, "description": { "tr": "Ev yapımı, mevsim meyveli", "en": "Homemade, seasonal fruits" }, "price": "₺95" }
+    ],
+    "drinks": [
+      { "id": "kombucha", "name": { "tr": "Ev Yapımı Kombucha", "en": "House Kombucha" }, "description": { "tr": "Fermente çay", "en": "Fermented tea" }, "price": "₺70" },
+      { "id": "limonata", "name": { "tr": "Taze Limonata", "en": "Fresh Lemonade" }, "description": { "tr": "Nane & zencefil", "en": "Mint & ginger" }, "price": "₺60" },
+      { "id": "smoothie", "name": { "tr": "Mevsim Smoothie", "en": "Seasonal Smoothie" }, "description": { "tr": "Taze meyveler", "en": "Fresh fruits" }, "price": "₺90" }
+    ]
+  },
+
+  "gallery": {
+    "heading": { "tr": "Mekandan Kareler", "en": "Our Space" },
+    "images": [
+      { "src": "/placeholder.svg", "alt": { "tr": "Kafe iç mekan", "en": "Cafe interior" } },
+      { "src": "/placeholder.svg", "alt": { "tr": "Kahve detay", "en": "Coffee detail" } },
+      { "src": "/placeholder.svg", "alt": { "tr": "Tatlı tabağı", "en": "Dessert plate" } },
+      { "src": "/placeholder.svg", "alt": { "tr": "Bahçe oturma", "en": "Garden seating" } }
+    ]
+  },
+
+  "testimonials": {
+    "heading": { "tr": "Misafir Yorumları", "en": "Guest Reviews" },
+    "reviews": [
+      { "text": "Mahallenin en iyi kahvesi! Atmosfer harika, çalışanlar çok güler yüzlü.", "author": "Ayşe K.", "rating": 5, "date": "2026" },
+      { "text": "Cheesecake'leri efsane. Her hafta sonu uğramadan edemiyorum.", "author": "Mehmet K.", "rating": 5, "date": "2026" },
+      { "text": "Uzaktan çalışmak için ideal. WiFi hızlı, kahve bol.", "author": "Zeynep T.", "rating": 4, "date": "2026" }
+    ]
+  },
+
+  "faq": {
+    "heading": { "tr": "Sık Sorulan Sorular", "en": "FAQ" },
+    "questions": [
+      { "question": { "tr": "Rezervasyon gerekiyor mu?", "en": "Do I need a reservation?" }, "answer": { "tr": "BELİRSİZ - manuel doldurulacak", "en": "UNKNOWN - fill manually" } },
+      { "question": { "tr": "WiFi var mı?", "en": "Is there WiFi?" }, "answer": { "tr": "BELİRSİZ - manuel doldurulacak", "en": "UNKNOWN - fill manually" } }
+    ]
+  },
+
+  "contact": {
+    "heading": { "tr": "Bize Ulaşın", "en": "Find Us" },
+    "googleMapsEmbedUrl": "",
+    "googleMapsUrl": ""
+  },
+
+  "social": {
+    "instagram": "",
+    "googleMaps": ""
+  },
+
+  "languages": ["tr", "en"],
+  "defaultLanguage": "tr"
+}
