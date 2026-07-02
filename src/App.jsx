@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import ErrorBoundary from './components/ErrorBoundary';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import MenuS from './components/Menu/MenuSection';
@@ -33,6 +34,7 @@ function HomePage() {
 export default function App() {
   return (
     <BrowserRouter>
+      <ErrorBoundary>
       <ScrollToTop />
       <Navbar />
       <Routes>
@@ -40,6 +42,7 @@ export default function App() {
         <Route path="*" element={<Navigate to="/tr" replace />} />
       </Routes>
       <Footer />
+      </ErrorBoundary>
     </BrowserRouter>
   );
 }
