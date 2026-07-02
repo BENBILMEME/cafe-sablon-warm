@@ -22,7 +22,7 @@ export default function Contact() {
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}
             className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#F5E1C8]">
             {C.contact.googleMapsEmbedUrl ? (
-              <iframe src={C.contact.googleMapsEmbedUrl} width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+              <iframe title={`${C.business.name} — Google Maps`} src={C.contact.googleMapsEmbedUrl} width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
             ) : (
               <div className="w-full h-full flex items-center justify-center text-[#6B3524]/30 font-serif text-lg italic">Google Maps embed URL'si site-content.json'a eklenecek</div>
             )}

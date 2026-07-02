@@ -22,7 +22,7 @@ export default function FAQ() {
         <div className="space-y-3">
           {F.questions.map((q, i) => (
             <div key={i} className="bg-white rounded-2xl border border-[#E8C9A0]/30 overflow-hidden">
-              <button type="button" onClick={() => setOpenIdx(openIdx === i ? null : i)}
+              <button type="button" onClick={() => setOpenIdx(openIdx === i ? null : i)} aria-expanded={openIdx === i}
                 className="w-full flex items-center justify-between p-5 text-left font-sans font-medium text-[#3C2415] hover:text-[#C67B5C] transition-colors">
                 <span className="pr-4">{t(q.question, lang)}</span>
                 <motion.svg animate={{ rotate: openIdx === i ? 45 : 0 }} className="w-5 h-5 shrink-0 text-[#C67B5C]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" /></motion.svg>

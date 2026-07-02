@@ -10,7 +10,7 @@ export default function Hero() {
   const C = siteContent;
 
   return (
-    <section className="relative min-h-screen flex items-center bg-[#FFF8F0] overflow-hidden">
+    <section id="main-content" className="relative min-h-screen flex items-center bg-[#FFF8F0] overflow-hidden" aria-labelledby="hero-heading">
       {/* Arka plan deseni */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
         style={{ backgroundImage: 'radial-gradient(circle at 25px 25px, #3C2415 1px, transparent 0)', backgroundSize: '50px 50px' }} />
