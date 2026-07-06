@@ -29,7 +29,7 @@ export default function About() {
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} className="order-1 lg:order-2">
             <span className="text-sm font-semibold text-[#C67B5C] tracking-[0.2em] uppercase">{t(A.title, lang)}</span>
             <h2 className="font-serif text-display text-[#3C2415] mt-3 mb-6">{t(A.heading, lang)}</h2>
-            <p className="text-lg text-[#6B3524]/70 leading-relaxed mb-8">{t(A.description, lang)}</p>
+            <p className="text-lg text-[#8B5A4A] leading-relaxed mb-8">{t(A.description, lang)}</p>
 
             {/* Öne çıkanlar */}
             <div className="grid grid-cols-3 gap-4 mb-8">

@@ -29,7 +29,7 @@ export default function Hero() {
             <span className="italic text-[#C67B5C]">{t(H.tagline2, lang)}</span>
           </h1>
 
-          <p className="text-lg text-[#6B3524]/70 leading-relaxed mb-10 max-w-md mx-auto lg:mx-0">
+          <p className="text-lg text-[#8B5A4A] leading-relaxed mb-10 max-w-md mx-auto lg:mx-0">
             {t(H.description, lang)}
           </p>
 
