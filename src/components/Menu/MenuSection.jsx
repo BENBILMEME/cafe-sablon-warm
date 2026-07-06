@@ -37,7 +37,7 @@ export default function MenuSection() {
                 className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {items.map(item => (
                   <motion.div key={item.id} variants={itemFade}
-                    className="group flex justify-between items-center p-5 rounded-2xl hover:bg-[#FFF8F0] transition-colors duration-300 border border-transparent hover:border-[#E8C9A0]/50 cursor-default">
+                    className="group flex justify-between items-center p-5 rounded-2xl card-lift border border-transparent hover:border-[#E8C9A0]/50 cursor-pointer">
                     <div>
                       <h4 className="font-serif text-lg font-semibold text-[#3C2415] group-hover:text-[#C67B5C] transition-colors">{t(item.name, lang)}</h4>
                       <p className="text-sm text-[#6B3524]/50 mt-0.5">{t(item.description, lang)}</p>
